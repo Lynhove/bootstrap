@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <style>
+    :root{
+    --pink-color: #D92683;
+    --text-color: white;
+  }
+  th{
+    background-color: var(--pink-color)!important;
+    color: var(--text-color)!important;
+  }
+  tr:nth-child(odd){
+    background-color: pink !important;
+  }
+  
+  </style>
+
+</head>
+<body>
+  <table class="table table-bordered border-light">
+    <thead>
+      
+      <tr>
+        <th colspan="7 " class="text-center">Taille en CM</th>
+       
+      </tr>
+    </thead>
+    <thead>
+      
+      <tr>
+        <th scope="col">Taille en CM</th>
+        <th scope="col">First</th>
+        <th scope="col">Two</th>
+        <th scope="col">Three</th>
+        <th scope="col">Four</th>
+        <th scope="col">Five</th>
+        <th scope="col">Six</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Larry the Bird</td>
+        <td>@twitter</td>
+        <td>Larry the Bird</td>
+        <td>@twitter</td>
+        <td>Larry the Bird</td>
+        <td>@twitter</td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">5</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+      </tr>
+      <tr>
+        <th scope="row">6</th>
+        <td>Larry the Bird</td>
+        <td>@twitter</td>
+        <td>Larry the Bird</td>
+        <td>@twitter</td>
+        <td>Larry the Bird</td>
+        <td>@twitter</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="container" >
+    
+    <form action="">
+      <h1>Formulaire de Contact</h1>
+      <div class="row">
+      <div class="mb-6 col-6">
+        <label for="Nom" class="form-label">Votre nom <span class="text-danger">*</span></label>
+        <input type="text" id="Nom" class="form-control" placeholder="Votre Nom">
+      </div>
+      <div class="mb-6 col-6">
+        <label for="Prénom" class="form-label">Votre prénom <span class="text-danger">*</span></label>
+        <input type="text" id="Prénom" class="form-control" placeholder="Votre prénom">
+      </div>
+    </div>
+      <div class="mb-3">
+        <label for="Sujet" class="form-label">Commentaire <span class="text-danger">*</span></label>
+        <textarea type="text" id="Sujet" class="form-control"></textarea>
+      </div>
+      <div>
+        <button class="bg-primary">Envoyer</button>
+      </div>
+    </form>
+
+  </div>
+  
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

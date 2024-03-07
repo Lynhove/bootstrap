@@ -1,0 +1,6 @@
+:root{
+    --pink-color: pink;
+}
+th{
+    background-color: var(--pink-color);
+}
